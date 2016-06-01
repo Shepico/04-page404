@@ -1,0 +1,201 @@
+/*вспомогательные классы*/
+
+/*чтобы картинки не уходили за границы*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Класс для того, чтобы контейнер float разметки "видел" их */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*КОНЕЦ Вспомогательны классы*/
+
+body {
+    /*позиционирование*/
+    /*блочная модель*/
+    /*типографика*/
+    
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 17px;
+    /*оформление*/
+    
+    background-color: #1f3d5d;  
+    color: #777777;
+    /*анимация*/
+    /*разное*/
+}
+
+.p404{
+  width: 940px;
+  min-height: 350px;
+  margin: auto;
+  margin-top: 110px;
+  padding-bottom: 50px;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  
+}
+
+.left-section {
+  position: relative;
+  float: left;
+  width: 342px;
+  padding: 0 24px; 
+  padding-top: 88px;  
+ /* padding: 90px 23px; */
+ /* background-color: red;*/
+}
+
+.right-section {
+  /*position: relative;*/
+  float: right;
+  width: 506px;
+  padding-left: 44px;
+  /*background-color: green;*/
+}
+
+.rs-h3{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}  
+
+.alarm-text-h1 {
+  display: block;  
+  margin: 0;
+  font-family: "BN Emulator", "Arial", sans-serif;
+  font-size: 170px;
+  line-height: 170px;
+  color: #2d5b89;
+}
+
+.alarm-text {
+  position: absolute;
+  left: -24px;
+  width: 350px;
+  padding-left: 48px;
+  font-size: 30px;
+  line-height: 44px;
+  background-color: #969696;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.info-text-h2 {
+  margin: 0;
+  padding: 0;
+  margin-top: 27px;
+  font-size: 22px;
+  color: #1f3d5d; 
+}
+
+.info-text {
+  margin-right: 5px;
+}
+
+
+  
+.list-page-h3 {
+  position: relative;
+  left: -22px;
+  display: block;
+  width: 222px;  
+  margin-top: 18px;
+  margin-bottom: 7px;
+  padding-left: 22px;
+  
+  line-height: 27px;
+  background-color: #1f3d5d;   
+  color: #fff;
+  border-radius: 2px;
+  
+}
+
+.list-page{
+    margin: 0;
+    padding: 0;
+    padding-right: 67px;
+    padding-bottom: 37px;
+    column-count: 2;
+    column-gap: 24px;        
+}
+
+.list-page-item {
+  width: 188px;
+  padding-left: 20px;
+  border-bottom: 1px solid #d8dce1;
+  list-style-type: none; 
+}
+
+.list-page-item a{
+  display: block;
+  
+  font-size: 12px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #777777;
+}
+
+.p404-follow {
+  float: left;
+  /*width: 50%;*/
+ 
+ 
+  
+}
+
+.p404-follow-h3{
+  display: inline-block;
+  line-height: 29px;  
+  vertical-align: top;
+  color: #1f3d5d;
+}
+
+.p404-follow-icon {
+  display: inline-block;
+  width: 100px;
+  height: 29px;
+  vertical-align: top;
+  background-color: #d5d5d5;
+  border-radius: 3px;
+}
+
+.p404-fi-item {
+  display: inline-block;
+  margin-left: -0.25em;
+  vertical-align: top;
+  background-color: red;
+}
+
+.p404-search {
+  float: right;
+  width: 275px;
+}
+
+.p404-search-input {
+  display: inline-block;
+  height: 27px;
+  width: 206px;
+  margin-right: 6px;
+  padding-left: 9px;
+  vertical-align: top;
+  border: 1px solid #d8dce1;
+  border-radius: 3px;
+}
+
+.p404-search-icon{
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  vertical-align: top;
+  border-radius: 50%;
+  background-color: #f7f7f7;  
+  box-shadow: inset 0px -2px 0px 0px #848484;
+}
